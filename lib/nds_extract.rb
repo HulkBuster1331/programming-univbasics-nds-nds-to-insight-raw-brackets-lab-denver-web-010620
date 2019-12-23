@@ -5,6 +5,7 @@ require 'pry'
 
 
 def directors_totals(nds)
+<<<<<<< HEAD
  
   total = {}
     row_index = 0 
@@ -25,6 +26,18 @@ def directors_totals(nds)
        end
        column += 1
      end
+=======
+ binding.pry
+  total = {}
+    row_index = 0 
+      column = 0
+        price = directors_database[0][:movies][:worldwide_gross]
+ 
+  while row_index < directors_totals do
+      total += directors_database[0][:movies][:worldwide_gross]
+      
+      
+>>>>>>> 846bb8a8580a33168918880602b985eb0100a279
     row_index += 1    
    end
  return total
